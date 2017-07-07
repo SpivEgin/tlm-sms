@@ -1,5 +1,3 @@
-[![Build Status](https://drone.io/github.com/mplacona/twilio-dart/status.png)](https://drone.io/github.com/mplacona/twilio-dart/latest)
-
 # Twilio Wrapper for Dart
 ---
 A Future-based wrapper for the [Twilio API](https://www.twilio.com/docs/quickstart/). With this wrapper you can get yourself on the wonderful world of communication via [SMS](https://www.twilio.com/sms/api) and [Voice](https://www.twilio.com/voice/api) (WIP).
