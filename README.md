@@ -12,8 +12,6 @@ A Future-based wrapper for the [Twilio API](https://www.twilio.com/docs/quicksta
 * Run `pub get`
 * Obtain a key and an authentication code on the [dashboard](https://www.twilio.com/user/account) of the Twilio website. The account is limited but free.
 
-![Twilio user account dashboard](docs/images/twilio_user_account_dashboard.png "Twilio user account dashboard")
-
 * You can now create a new Twilio object with your account details as such:
 
 ```dart
@@ -123,36 +121,12 @@ It also decouples me from the web, which means I can code on the move (I commute
 * [mock](https://pub.dartlang.org/packages/mock)
 * [unittest](https://pub.dartlang.org/packages/unittest)
 
-## Roadmap
-Like I said before, Twilio's API is very big, and the ability to send texts is just the tip of the iceberg. The following are the next things I would like to implement in the future when time permits:
-
-* Calls
-	* Make a call
-	* View call
-	* View call list
-	* Modify a Live Call
-	* View Call Recording List
-	* View Call Notification List
-* Recordings
-	* View Recording
-	* View Recording List
-	* View Transcription List for Recording
-	* Delete Recording
-* Usage Records
-	* View Usage Record List
-	* View Usage Record Subresource
-* Conferences
-	* View Conference
-	* View Conference List
-	* View Participant for Conference
-	* View Participant List for Conference
-	* Mute Participant
-	* Delete Participant
-
-Again, not a full list, as there is much more that can be done, however, the list above are my personal preferences ;-)
 
 ## Disclaimer
-I am in no way affiliated to Twilio, other than having a trial account with them, like you probably also do by now. 
+I am in no way affiliated to Twilio, other than having an account with them, like you probably also do by now. 
 
 This library is also not endorsed or officially supported by Twilio, though I'm pretty sure they will be happy to help if you have questions about the API itself.
 
+## This is a fork
+I forked this from *[twilio-dart](https://github.com/mplacona/twilio-dart) to update it to the current version of dart.  Thanks to Marcos Placona
+for his hard work :)
