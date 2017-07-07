@@ -1,0 +1,4 @@
+name: tlm_sms_web
+description: A sample web application
+dependencies:
+  browser: any

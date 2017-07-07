@@ -1,0 +1,14 @@
+name: tlm_sms
+version: 0.0.1
+homepage: https://www.legionmarket.com
+author: Legion Market <email@legionmarket.com>
+
+environment:
+  sdk: 1.24.2
+dependencies:
+  http: "^0.11.3+13"
+  path: 1.4.1
+  convert: 2.0.1
+dev_dependencies:
+  unittest: any
+  mock: any
